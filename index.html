@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Desafio DIO - HTML</title>
+</head>
+<body style="background-color: rgb(148, 173, 255); font-family: 'Times New Roman', Times, serif; color: darkslateblue;">
+    <h1 style="text-align: center;">Desafio DIO - HTML</h1>
+    <h4 style="text-align: center;">Criar uma página web utilizando as tags aprendidas</h4>
+    <hr />
+
+    <h2><small>☼</small> Resumo</h2>
+    <p>
+        O desafio desta tarefa para o curso em Formação HTML Web Developer da DIO Pro é de explicar e utilizar as tags explicadas em aula até o 
+        momento, como se estivessemos a ensinar à alguém. <br><br>
+
+        <small>! ATENÇÃO: Todos as demonstrações de tags neste site estará com espaçamentos entre os < > e a tag em si, para o comando funcionar
+        em seu código, tire-os. !</small>
+    </p>
+
+    <h2 id="inicio"><small>☼</small> Índice</h2>
+
+    <ul style="color: darkmagenta;">
+        <li><a href="#headers-e-paragrafos">Headers e parágrafos</a></li>
+        <li><a href="#estilo-texto">Estilização de texto</a></li>
+        <li><a href="#listas">Listas</a></li>
+        <li><a href="#links">Links</a></li>
+    </ul>
+
+    <h3 id="headers-e-paragrafos"><small>►</small> Headers e parágrafos</h3>
+
+    <p>
+        Headers no HTML são os cabeçalhos que encontramos no Word ou Google docs, são textos maiores e em negritos que temos pré-programados
+        no HTML nos tamanhos h1, h2, h3, h4, h5 e h6. Sendo o h1 o maior (como encontrado no topo deste site) e h6 o menor. Colocando
+        esses valores entre <  > e fechando com < / > (Exemplo: < h1 > Header 1 < /h1>) irá criar o cabeçalho de sua escolha.
+        Aqui estão todos os tamanhos:
+    </p>
+    
+    <h1 style="text-align: center;">Header 1</h1>
+    <h2 style="text-align: center;">Header 2</h2>
+    <h3 style="text-align: center;">Header 3</h3>
+    <h4 style="text-align: center;">Header 4</h4>
+    <h5 style="text-align: center;">Header 5</h5>
+    <h6 style="text-align: center;">Header 6</h6>
+
+    <p>Após os headers é comum colocarmos algum tipo de texto mas, como fazer isso? No HTML podemos usar a função < p > e, como a maioria
+    das funções em HTML, fechando com < /p > após ter escrito o que desejamos, temos um bloco de texto em nosso site. Como por exemplo,
+    todos os textos neste site estão escrito com blocos de < p >. <br>
+
+    Você pode também fazer um < blockquote >, na qual o texto é posto em um começo mais para a direita, demonstrando a ideia de que
+    o que está escrito foi tirado de outro site, logo, é utilizado para referir a citações. Essa função também requere um fechamento
+    (< /blockquote >) <br>
+
+    Um exemplo utilizado a definição de < blockquote > utilizando a definição da função pela W3 Schools:</p>
+
+    <blockquote>Definition and Usage <br>
+        The < blockquote > tag specifies a section that is quoted from another source. <br><br>
+        
+        Browsers usually indent < blockquote > elements (look at example below to see how to remove the indentation).</blockquote>
+
+    
+    <sup style="color: darkmagenta;"><a href="#inicio">Voltar ⬆</a></sup>
+    
+    <h3 id="estilo-texto"><small>►</small> Estilização de texto</h3>
+
+    <p>
+        Há várias formas de estilização no HTML para o textos:<br><br>
+        < b > ou < strong >deixa seu texto em <b>negrito</b>, <br>
+        < mark > deixa seu texto <mark>destacado</mark>, <br>
+        < small > deixa o texto <small>pequeno</small>, <br>
+        < i > é usado para deixar as palavras em <i>itálico</i>, <br>
+        < u > irá deixar o texto <u>sublinhado</u>, <br>
+        < sup > deixará o texto pequeno e <sup>suspendido</sup> <br>
+        enquanto o < sub > deixa para <sub>baixo</sub>, <br>
+        < del > vai deixa o texto <del>riscado</del> <br>
+        < abbr title = "" > irá deixar um balão de informação quando colocamos o mouse em cima 
+        <abbr title="Mouse significa camundongo em inglês :)">(Passe o mouse aqui)</abbr> <br>
+        e o < hr > vai criar uma linha divisória para seu cabeçalho. <hr><br>
+
+        Também existe o < font >, uma função do HTML 4 que não é mais recomendada a utilização já que alguns navegadores não suportam
+        mais e também existem formas mais atualizadas na linguagem CSS. Mas a função agia na atribuição de fonte do texto, tamanho e cor.<br><br>
+
+        Vale lembrar que, como a maioria dos comandos em HTML, tags de estilização precisam ser fechados também, utilizando-as novamente no final
+        mas com uma / antes da tag (Exemplo: < b >  < /b >)
+    </p>
+
+    <sup style="color: darkmagenta;"><a href="#inicio">Voltar ⬆</a></sup>
+
+    <h3 id="listas"><small>►</small> Listas</h3>
+
+    <p>
+        Listas em HTML são divididas em duas categorias: listas ordenadas e não ordenadas. Utilizamos < ol > para as listas organizadas, onde
+        ficará com uma numeração para cada item.<br>
+        Exemplo:<br>
+        <ol>
+            <li>Um</li>
+            <li>Dois</li>
+            <li>Três</li>
+            <li>Quatro</li>
+        </ol><br>
+        
+        Para inserir seus itens na lista, utilizamos < li > e escrevemos o conteúdo que queremos dentro do <p ol >. Ficando algo parecido com isto:
+        <br><br>
+    </p>
+
+    <p style="text-align: center; background-color: rgb(178, 196, 255);">
+        < ol ><br>
+            < li >Um< /li ><br>
+            < li >Dois< /li ><br>
+            < li >Três< /li ><br>
+            < li >Quatro< /li><br>
+        < /ol >
+    </p>
+
+    <p>
+        Por fim, temos as listas não ordenadas, onde o que diferencia-se da ordenadas é a falta de numeração nos itens, sendo substituído por apenas
+        um círculo. Para fazer uma lista não ordenada, basta utilizar < ul > ao invés de <p ol >.<br>
+        
+        <ul>
+            <li>Item um</li>
+            <li>Item dois</li>
+            <li>Item três</li>
+            <li>Item quatro</li>
+        </ul><br>
+        
+        Logo:<br><br>
+    </p>
+        
+    <p style="text-align: center; background-color: rgb(178, 196, 255);">
+        < ul ><br>
+            < li >Item um< /li ><br>
+            < li >Item dois< /li ><br>
+            < li >Item três< /li ><br>
+            < li >Item quatro< /li ><br>
+        < /ul ><br><br>
+    </p>
+
+    <sup style="color: darkmagenta;"><a href="#inicio">Voltar ⬆</a></sup>
+    
+    <h3 id="links"><small>►</small> Links</h3>
+    
+    <p>
+        Links no HTML são geridos pela tag < a >, porém ela chega a ser um pouco mais complicada do que o resto. Não é difícil, mas há apenas alguns
+        detalhes que devem ser notados. Ela deve ser sempre acompanhada, em seu uso, da tag "href" dentro da função com = e "". Visualmente, ficará
+        algo assim:<br><br>
+    </p>
+
+    <p style="text-align: center; background-color: rgb(178, 196, 255);">
+        < a = href="" > Nome do conteúdo < /a ><br><br>
+    </p>
+    <p>
+        Dentro das aspas podemos colocar um link que, ao clicar no nome dado para o conteúdo, irá o direcionar para o site programado.<br><br>
+    </p>
+
+    <p style="text-align: center; background-color: rgb(178, 196, 255);">
+        < a = href="https://www.google.com" > Google < /a ><br><br>
+    </p>
+    <p>
+        Porém, da forma que está aqui, fará que o link dado abra em cima de nosso site. Uma prática comum no HTML é fazer que os links abram em
+        uma nova aba no navegador. Para isso, temos que adicionar a tag target dentro da tag < a > novamente com "" e =, mas dessa vez colocaremos
+        dentro das aspas o comando "_blank"<br><br>
+    </p>
+
+    <p style="text-align: center; background-color: rgb(178, 196, 255);">
+        < a = href="https://www.google.com" target="_blank"> Google < /a ><br><br>
+    </p>
+
+    <p>
+        Por fim, nosso link aparecerá desta forma: <br><br>
+
+        <a = href="https://www.google.com" target="_blank">Google</a><br><br>
+
+        Há também como você conectar outra página do próprio site com o < a >. Para isso, imagine que temos um outro arquivo HTML de nosso site
+        que está salvo pelo nome de "Sobre-a-empresa" e queremos que o cliente tenha disponível um botão que leve para a descrição da empresa em
+        questão. Para isso, precisamos simplesmente adicionar dentro das aspas de < a = href= "" > o nome do arquivo, que vai estar salvo como .html:
+        <br><br>
+    </p>
+
+    <p style="text-align: center; background-color: rgb(178, 196, 255);">
+        < a = href="sobre-a-empresa.html"> Sobre a empresa < /a ><br><br>
+    </p>
+
+    <p>
+        Podemos também usar essa ancoragem para a mesma página. Como vimos anteriormente, podemos colocar mais informações dentro das tags antes de
+        atribuir como vai aparecer. Podemos também, nesta forma, dar IDs para os comandos usando o comando id = "" dentro da tag usada: <br><br>
+    </p>
+
+    <p style="text-align: center; background-color: rgb(178, 196, 255);">
+        < h1 id="header1" > Header 1 < /h1 ><br><br>
+    </p>
+
+    <p>
+        Aqui, atribuímos dentro do código que o Header 1 terá o ID de "header1". Então, podemos "chamar" essa linha de tag referenciando tal ID.
+        Como fazer isso, então? Podemos referenciar esta linha utilizando href da tag < a >. O que ficaria desta forma:<br><br>
+    </p>
+
+    <p style="text-align: center; background-color: rgb(178, 196, 255);">
+        < a href =" # header1 " >Ir ao Header 1< /a ><br><br>
+    </p>
+
+    <p>
+        Isso transformará o texto em um botão clicável que irá levar a pessoa até onde o "Header 1" está. Um exemplo disso em ação sãos os botões
+        de voltar espalhados por este site e os botões no Índice, no começo da página.
+
+    </p>
+
+    <sup style="color: darkmagenta;"><a href="#inicio">Voltar ⬆</a></sup>
+</body>
+</html>
